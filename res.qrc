@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/casperpaura.jpg</file>
+        <file>res/images/1.gif</file>
+        <file>res/images/1_old2.gif</file>
+        <file>res/images/2.gif</file>
+        <file>res/images/2_old2.gif</file>
+        <file>res/images/3.gif</file>
+        <file>res/images/3_old2.gif</file>
+        <file>res/images/go.gif</file>
+        <file>res/themes/disney/blank.gif</file>
+        <file>res/themes/disney/casp.gif</file>
+        <file>res/themes/disney/ice.gif</file>
+        <file>res/themes/disney/pengu.gif</file>
+        <file>res/themes/disney/preview.gif</file>
+        <file>res/themes/flinstones/blank.gif</file>
+        <file>res/themes/flinstones/casp.gif</file>
+        <file>res/themes/flinstones/ice.gif</file>
+        <file>res/themes/flinstones/pengu.gif</file>
+        <file>res/themes/flinstones/preview.gif</file>
+        <file>res/themes/standard/blank.gif</file>
+        <file>res/themes/standard/casp.gif</file>
+        <file>res/themes/standard/ice.gif</file>
+        <file>res/themes/standard/pengu.gif</file>
+        <file>res/themes/standard/preview.gif</file>
+        <file>res/themes/titti/blank.gif</file>
+        <file>res/themes/titti/casp.gif</file>
+        <file>res/themes/titti/ice.gif</file>
+        <file>res/themes/titti/pengu.gif</file>
+        <file>res/themes/titti/preview.gif</file>
+        <file>res/themes/tunes/blank.gif</file>
+        <file>res/themes/tunes/casp.gif</file>
+        <file>res/themes/tunes/ice.gif</file>
+        <file>res/themes/tunes/pengu.gif</file>
+        <file>res/themes/tunes/preview.gif</file>
+        <file>res/themes/yogi/blank.gif</file>
+        <file>res/themes/yogi/casp.gif</file>
+        <file>res/themes/yogi/ice.gif</file>
+        <file>res/themes/yogi/pengu.gif</file>
+        <file>res/themes/yogi/preview.gif</file>
+        <file>res/config.txt</file>
+        <file>res/maze.txt</file>
+        <file>pengu_en.qm</file>
+    </qresource>
+</RCC>
