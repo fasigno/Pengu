@@ -3,6 +3,12 @@ Pengu
 
 Simple Pengo game clone written in qt.
 
+![Pengu](https://dl.dropboxusercontent.com/u/22799853/pengu.png)
+
+***
+WARNING: The themes and images provided with the code, freely downloadable on internet, are owned by respective owners.
+***
+
 ###DEPENDENCIES
 
  * Qt 4.8.5

@@ -114,6 +114,62 @@
         <source>&amp;Info</source>
         <translation>&amp;Info</translation>
     </message>
+    <message>
+        <location filename="game.cpp" line="202"/>
+        <source>Hai vinto!
+Il tuo punteggio finale e&apos; :
+
+Mostri : </source>
+        <translation>You won!
+Your final score is:
+
+Enemies: </translation>
+    </message>
+    <message>
+        <location filename="game.cpp" line="202"/>
+        <source>
+Vittoria : + 100 - Totale = </source>
+        <translation>
+Victory : + 100 - Total = </translation>
+    </message>
+    <message>
+        <location filename="game.cpp" line="219"/>
+        <source>Sei Stato ucciso!!! 
+Il tuo punteggio finale e&apos; :
+
+Mostri : </source>
+        <translation>You&apos;ve been killed!!! 
+You final score is : 
+
+Enemies : </translation>
+    </message>
+    <message>
+        <location filename="game.cpp" line="219"/>
+        <source>
+Uccisione : - 50 - Totale = </source>
+        <translation>
+Kills : - 50 - Total = </translation>
+    </message>
+    <message>
+        <location filename="game.cpp" line="275"/>
+        <source>Pausa !</source>
+        <translation>Pause !</translation>
+    </message>
+    <message>
+        <location filename="game.cpp" line="311"/>
+        <source>Tieniti pronto ! - Assicurati che la finestra sia selezionata.</source>
+        <translation>Get ready ! - Make sure the window is selected.</translation>
+    </message>
+    <message>
+        <location filename="game.cpp" line="346"/>
+        <source>Go ! - Premi P per la pausa.</source>
+        <translation>Go ! - press P for pause.</translation>
+    </message>
+    <message>
+        <location filename="game.cpp" line="364"/>
+        <source>Fine - Per incominciare una nuova partita selezionare File -&gt; Play</source>
+        <translation>Game over - Start a new game with File -&gt; Play</translation>
+    </message>
 </context>
 <context>
     <name>InsertMos</name>
@@ -171,32 +227,32 @@ Parma 2009/2010
     <message>
         <location filename="settings.cpp" line="93"/>
         <source>Impostazioni di Gioco :</source>
-        <translation type="unfinished"></translation>
+        <translation>Game settings :</translation>
     </message>
     <message>
         <location filename="settings.cpp" line="94"/>
         <source>Seleziona tema:</source>
-        <translation type="unfinished"></translation>
+        <translation>Select theme:</translation>
     </message>
     <message>
         <location filename="settings.cpp" line="95"/>
         <source>Velocita&apos; mostri :</source>
-        <translation type="unfinished"></translation>
+        <translation>Enemies speed</translation>
     </message>
     <message>
         <location filename="settings.cpp" line="97"/>
         <source>Labirinto :</source>
-        <translation type="unfinished"></translation>
+        <translation>Maze :</translation>
     </message>
     <message>
         <location filename="settings.cpp" line="129"/>
         <source>normale</source>
-        <translation type="unfinished"></translation>
+        <translation>normal</translation>
     </message>
     <message>
         <location filename="settings.cpp" line="130"/>
         <source>piu&apos; veloce</source>
-        <translation type="unfinished"></translation>
+        <translation>faster</translation>
     </message>
     <message>
         <location filename="settings.cpp" line="250"/>

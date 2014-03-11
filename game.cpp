@@ -199,7 +199,7 @@ void Game::end(){ // fine gioco vincendo.
     QString text;
     QMessageBox dialog;
 
-    QTextStream(&text) << "Hai vinto!\nIl tuo punteggio finale e' :\n\nMostri : " <<  n << " X 100 = " << (n * 100) << "\nVittoria : + 100 - Totale = " << (n * 100 + 100);
+    QTextStream(&text) << tr("Hai vinto!\nIl tuo punteggio finale e' :\n\nMostri : ") <<  n << " X 100 = " << (n * 100) << tr("\nVittoria : + 100 - Totale = ") << (n * 100 + 100);
 
     dialog.setText(text);
     dialog.exec();
@@ -216,7 +216,7 @@ void Game::end_k(){ // fine gioco ucciso.
     QString text;
     QMessageBox dialog;
 
-    QTextStream(&text) << "Sei Stato ucciso!!! \nIl tuo punteggio finale e' :\n\nMostri : " <<  (n-num) << " X 100 = " << ((n-num) * 100) << "\nUccisione : - 50 - Totale = " << ((n-num) * 100 - 50);
+    QTextStream(&text) << tr("Sei Stato ucciso!!! \nIl tuo punteggio finale e' :\n\nMostri : ") <<  (n-num) << " X 100 = " << ((n-num) * 100) << tr("\nUccisione : - 50 - Totale = ") << ((n-num) * 100 - 50);
 
     dialog.setText(text);
     dialog.exec();
@@ -272,7 +272,7 @@ void Game::keyPressEvent ( QKeyEvent * event ){
 
     case Qt::Key_P: // tasto pausa.
 
-        if (pause == false){ timer->stop(); pause = true; inf->showMessage("Pausa !");} else
+        if (pause == false){ timer->stop(); pause = true; inf->showMessage(tr("Pausa !"));} else
         { inf->showMessage("Go !"); timer->start(); pause = false;}
 
         break;
@@ -308,7 +308,7 @@ void Game::message(){
 
     i++;
 
-    inf->showMessage("Tieniti pronto ! - Assicurati che la finestra sia selezionata.");
+    inf->showMessage(tr("Tieniti pronto ! - Assicurati che la finestra sia selezionata."));
 
     QString path; // contiene il percorso delle immagini dei numeri.
 
@@ -343,7 +343,7 @@ void Game::message(){
 
         i=0; // si reinizializza in modo che, se si fa ripartire la partita, il timer funziona ancora.
 
-        inf->showMessage("Go ! - Premi P per la pausa.", 2000);
+        inf->showMessage(tr("Go ! - Premi P per la pausa."), 2000);
 
         timer->start(speedMonst); // velocità mostri default : 100 ms.
 
@@ -361,7 +361,7 @@ void Game::message(){
 
 void Game::deleteObj(){ // dealloca le risorse.
 
-   inf->showMessage("Fine - Per incominciare una nuova partita selezionare File -> Play");
+   inf->showMessage(tr("Fine - Per incominciare una nuova partita selezionare File -> Play"));
 
    if (lab != NULL) { delete lab; lab = NULL;}
    if (pl != NULL) { delete pl; pl = NULL; }
